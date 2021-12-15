@@ -7,7 +7,7 @@ public class BasicCSVReader {
                 CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT);
         ) {
             for (CSVRecord csvRecord : csvParser) {
-                // Accessing Values by Column Index
+                // dfkfkdm
 
                 String name = csvRecord.get(0);
                 String email = csvRecord.get(1);
